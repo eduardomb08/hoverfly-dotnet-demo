@@ -1,0 +1,114 @@
+{
+  "data": {
+    "pairs": [
+      {
+        "response": {
+          "status": 200,
+          "body": "{\"summary\":{\"query\":\"4725 piedmont row dr charlotte nc\",\"queryType\":\"NON_NEAR\",\"queryTime\":70,\"numResults\":3,\"offset\":0,\"totalResults\":3,\"fuzzyLevel\":1},\"results\":[{\"type\":\"Point Address\",\"id\":\"US/PAD/p0/51820381\",\"score\":12.07795,\"address\":{\"streetNumber\":\"4725\",\"streetName\":\"Piedmont Row Drive\",\"municipalitySubdivision\":\"Charlotte, Barclay Downs\",\"municipality\":\"Charlotte\",\"countrySecondarySubdivision\":\"Mecklenburg\",\"countryTertiarySubdivision\":\"Township 1 Charlotte\",\"countrySubdivision\":\"NC\",\"postalCode\":\"28210\",\"extendedPostalCode\":\"282104241\",\"countryCode\":\"US\",\"country\":\"United States\",\"countryCodeISO3\":\"USA\",\"freeformAddress\":\"4725 Piedmont Row Drive, Charlotte, NC 28210\",\"localName\":\"Charlotte\",\"countrySubdivisionName\":\"North Carolina\"},\"position\":{\"lat\":35.15154,\"lon\":-80.83936},\"viewport\":{\"topLeftPoint\":{\"lat\":35.15244,\"lon\":-80.84046},\"btmRightPoint\":{\"lat\":35.15064,\"lon\":-80.83826}},\"entryPoints\":[{\"type\":\"main\",\"position\":{\"lat\":35.15161,\"lon\":-80.83976}}]},{\"type\":\"Street\",\"id\":\"US/STR/p0/7219964\",\"score\":10.34569,\"address\":{\"streetName\":\"Piedmont Row Drive\",\"municipalitySubdivision\":\"Charlotte, Barclay Downs\",\"municipality\":\"Charlotte\",\"countrySecondarySubdivision\":\"Mecklenburg\",\"countryTertiarySubdivision\":\"Township 1 Charlotte\",\"countrySubdivision\":\"NC\",\"postalCode\":\"28209,28210\",\"extendedPostalCode\":\"2821026,2821042,282102600,282102601,282102602,282102604,282102605,282102606,282102607,282102608,282102609,282102610,282102611,282102612,282102614,282102615,282102616,282102617,282102618,282102619,282102620,282104237,282104238,282104239,282104240,282104241,282104253,282104268,282104269,282104270,282104272,282104275,282104276,282104279,282104280,282104281,282104282,282104283,282104284,282104285,282104286,282104287,282104288,282104289,282104290,282104291,282104292,282104293,282104294,282104295,282104296,282104297,282104298,282104299,282104453,282104454,282104661,282104663,282104664,282104676,282105255,282105287,282105288,282105289\",\"countryCode\":\"US\",\"country\":\"United States\",\"countryCodeISO3\":\"USA\",\"freeformAddress\":\"Piedmont Row Drive, Charlotte, NC\",\"countrySubdivisionName\":\"North Carolina\"},\"position\":{\"lat\":35.15229,\"lon\":-80.8398},\"viewport\":{\"topLeftPoint\":{\"lat\":35.1537,\"lon\":-80.84005},\"btmRightPoint\":{\"lat\":35.15113,\"lon\":-80.83959}}},{\"type\":\"Cross Street\",\"id\":\"US/XSTR/p0/5052116\",\"score\":8.45034,\"address\":{\"streetName\":\"Piedmont Row Drive, J A. Jones Drive & South Executive Park Drive\",\"municipalitySubdivision\":\"Charlotte\",\"municipality\":\"Charlotte\",\"countrySecondarySubdivision\":\"Mecklenburg\",\"countryTertiarySubdivision\":\"Township 1 Charlotte\",\"countrySubdivision\":\"NC\",\"postalCode\":\"28210\",\"countryCode\":\"US\",\"country\":\"United States\",\"countryCodeISO3\":\"USA\",\"freeformAddress\":\"Piedmont Row Drive & South Executive Park Drive, Charlotte, NC 28210\",\"countrySubdivisionName\":\"North Carolina\"},\"position\":{\"lat\":35.14929,\"lon\":-80.83978},\"viewport\":{\"topLeftPoint\":{\"lat\":35.15019,\"lon\":-80.84088},\"btmRightPoint\":{\"lat\":35.14839,\"lon\":-80.83868}}}]}",
+          "encodedBody": false,
+          "headers": {
+            "Access-Control-Allow-Origin": [
+              "*"
+            ],
+            "Content-Type": [
+              "application/json; charset=utf-8"
+            ],
+            "Date": [
+              "Fri, 04 Oct 2019 18:24:23 GMT"
+            ],
+            "Hoverfly": [
+              "Was-Here"
+            ],
+            "Strict-Transport-Security": [
+              "max-age=31536000; includeSubDomains"
+            ],
+            "Transfer-Encoding": [
+              "chunked"
+            ],
+            "Vary": [
+              "Accept-Encoding"
+            ],
+            "X-Content-Type-Options": [
+              "nosniff"
+            ],
+            "X-Ms-Azuremaps-Region": [
+              "East US"
+            ],
+            "X-Msedge-Ref": [
+              "Ref A: 923302B76D75414C91517ABB6250B298 Ref B: ATAEDGE0919 Ref C: 2019-10-04T18:24:24Z"
+            ]
+          },
+          "templated": false,
+          "transitionsState": {},
+          "removesState": []
+        },
+        "request": {
+          "path": [
+            {
+              "matcher": "exact",
+              "value": "/search/address/json"
+            }
+          ],
+          "method": [
+            {
+              "matcher": "exact",
+              "value": "GET"
+            }
+          ],
+          "destination": [
+            {
+              "matcher": "exact",
+              "value": "atlas.microsoft.com"
+            }
+          ],
+          "scheme": [
+            {
+              "matcher": "exact",
+              "value": "https"
+            }
+          ],
+          "body": [
+            {
+              "matcher": "exact",
+              "value": ""
+            }
+          ],
+          "query": {
+            "api-version": [
+              {
+                "matcher": "exact",
+                "value": "1.0"
+              }
+            ],
+            "countrySet": [
+              {
+                "matcher": "exact",
+                "value": "US"
+              }
+            ],
+            "query": [
+              {
+                "matcher": "exact",
+                "value": "4725 Piedmont Row Dr, Charlotte, NC"
+              }
+            ],
+            "subscription-key": [
+              {
+                "matcher": "exact",
+                "value": "NNqU_UWei9kJEXnBKpyHZHaA0IZ7gThDH0_sJ2B7ezM"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "globalActions": {
+      "delays": []
+    }
+  },
+  "meta": {
+    "schemaVersion": "v5",
+    "hoverflyVersion": "v1.0.1",
+    "timeExported": "2019-10-04T14:25:59-04:00"
+  }
+}
