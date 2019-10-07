@@ -20,7 +20,7 @@ namespace hoverfly_dotnet_demo
         public AzureMapsGeocodeProvider(HttpClient client, string serviceKey)
         {
             _client = client;
-            _mapsKey = string.IsNullOrWhiteSpace(serviceKey) ? "NNqU_UWei9kJEXnBKpyHZHaA0IZ7gThDH0_sJ2B7ezM" : serviceKey;
+            _mapsKey = serviceKey;
         }
 
         public async Task<string> GeocodeAddressAsync(string address)
